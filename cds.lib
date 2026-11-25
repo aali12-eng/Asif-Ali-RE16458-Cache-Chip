@@ -7,11 +7,11 @@ DEFINE basic              $CDS_IC/tools/dfII/etc/cdslib/basic
 DEFINE NCSU_Analog_Parts  $CDK_DIR/lib/NCSU_Analog_Parts
 DEFINE gpdk045            /umbc/software/design_kits2/gpdk045_v_6_0/gpdk045
 
--- the design library (39 cells, their tb_* testbenches, pwl/ input files, lvs_extra.rul)
+-- the design library (39 cells, their tb_* testbenches, lvs_extra.rul)
 DEFINE cache_chip_final   ./cache_chip_final
 
--- PWL input files of the testbenches: ./cache_chip_final/pwl
---   before starting Virtuoso:  setenv CACHE_CHIP_FINAL_PWL <path>/cache_chip_final/pwl
+-- PWL input files of the testbenches: ./pwl
+--   before starting Virtuoso:  setenv CACHE_CHIP_FINAL_PWL <path>/pwl
 -- Pegasus (DRC/LVS): technology library /umbc/software/design_kits2/gpdk045_v_6_0/pvtech.lib
 --   technology gpdk045_pvs, rule set default; PVS rule folder /umbc/software/design_kits2/gpdk045_v_6_0/pvs
 --   LVS: also add ./cache_chip_final/lvs_extra.rul (Tech&Rules tab > Rules File(s) > Add)

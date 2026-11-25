@@ -6,8 +6,8 @@ Asif Ali, Reg. No. RE16458, aali12@umbc.edu
 Contents
   cache_chip_final/   the Cadence library: schematic, symbol and layout of every cell, the tb_<cell>
                       testbench schematics with their maestro views,
-                      pwl/            the PWL input files of the testbenches (tb_<cell>/<signal>.pwl)
                       lvs_extra.rul   the extra LVS rule (see below)
+  pwl/                the PWL input files of the testbenches (tb_<cell>/<signal>.pwl)
   vhdl/two_way/       the VHDL code of the chip and its testbenches (testbench/chip_test.vhd is the
                       course testbench, read with testbench/chip_in.txt)
   cds.lib             library definitions, with the PWL and PVS paths
@@ -15,14 +15,14 @@ Contents
   The report: Cache_Chip_2Way_Layout_Report.pdf (Section 2: how to run the project)
 
 1. Install
-   Copy cache_chip_final/ next to your Cadence setup and add to cds.lib:   DEFINE cache_chip_final <path>/cache_chip_final
+   Copy cache_chip_final/ and pwl/ next to your Cadence setup and add to cds.lib:   DEFINE cache_chip_final <path>/cache_chip_final
    (or use the cds.lib given here). gpdk045 must be defined.
 
 2. PWL folder path (simulation inputs)
-   The vpwlf sources read $CACHE_CHIP_FINAL_PWL/tb_<cell>/<signal>.pwl, so add the pwl folder of the
-   library to the path before starting Virtuoso:
-       setenv CACHE_CHIP_FINAL_PWL <path>/cache_chip_final/pwl          (csh/tcsh)
-       export CACHE_CHIP_FINAL_PWL=<path>/cache_chip_final/pwl          (bash)
+   The vpwlf sources read $CACHE_CHIP_FINAL_PWL/tb_<cell>/<signal>.pwl, so add the pwl folder to the
+   path before starting Virtuoso:
+       setenv CACHE_CHIP_FINAL_PWL <path>/pwl          (csh/tcsh)
+       export CACHE_CHIP_FINAL_PWL=<path>/pwl          (bash)
 
 3. Simulation
    cache_chip_final > tb_<cell> > maestro > Run Simulation (Spectre, gpdk045 models, section tt).
