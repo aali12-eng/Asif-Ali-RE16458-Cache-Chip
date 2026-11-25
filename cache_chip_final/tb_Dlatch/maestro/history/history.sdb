@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<setupdb version="7">history
+	<active>Active Setup</active>
+	<history>History
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.0
+			<timestamp>Nov 21 16:48:28 2026</timestamp>
+			<uuid>{1261ec26-9519-4829-b60f-170ea23b59d1}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/afs/umbc.edu/users/a/a/aali12/home/cadence1/cadence_setup/cache_chip/tb_Dlatch/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/afs/umbc.edu/users/a/a/aali12/home/cadence1/cadence_setup/cache_chip/tb_Dlatch/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/tmp/aali12/simulation/cache_chip/tb_Dlatch/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/cache_chip/tb_Dlatch/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="running">Interactive.1
+			<timestamp>Nov 21 17:25:06 2026</timestamp>
+			<uuid>{9a6817c4-8724-4835-8f2c-c0185c4b1da8}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/afs/umbc.edu/users/a/a/aali12/home/cadence1/cadence_setup/cache_chip/tb_Dlatch/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/afs/umbc.edu/users/a/a/aali12/home/cadence1/cadence_setup/cache_chip/tb_Dlatch/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/tmp/aali12/simulation/cache_chip/tb_Dlatch/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/cache_chip/tb_Dlatch/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+	</history>
+</setupdb>

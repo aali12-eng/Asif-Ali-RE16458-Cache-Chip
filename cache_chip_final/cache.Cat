@@ -1,0 +1,8 @@
+TDMCHECKPOINT="1.0"
+cache_chip/cache type="cell"
+cache_chip/cache_block type="cell"
+cache_chip/cache_byte type="cell"
+cache_chip/cache_way type="cell"
+cache_chip/hit_miss type="cell"
+cache_chip/lru type="cell"
+cache_chip/way_select type="cell"

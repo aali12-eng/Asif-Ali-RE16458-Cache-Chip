@@ -1,0 +1,4 @@
+// Extra LVS rule for cache_chip_final (Pegasus):
+// the schematic cds_thru (written to the CDL as R ... $[SH]) is a zero-ohm link, not a device.
+// Pegasus ignores the CDL *.RESI line, so remove the link and short its two nets.
+lvs_filter_device R(SH) -short -source;

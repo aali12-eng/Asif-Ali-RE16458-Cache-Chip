@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<setupdb version="7">maestro
+	<active>Active Setup
+		<jobcontrolmode>LSCS</jobcontrolmode>
+		<corners>
+			<corner enabled="1">_default</corner>
+		</corners>
+		<currentmode>Single Run, Sweeps and Corners</currentmode>
+		<overwritehistory>0</overwritehistory>
+		<tests>
+			<test>tran
+				<tool>ADE</tool>
+				<tooloptions>
+					<option>cell
+						<value>tb_nand2_gate</value>
+					</option>
+					<option>lib
+						<value>cache_chip_final</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR</value>
+					</option>
+					<option>state
+						<value>active</value>
+					</option>
+				</tooloptions>
+			</test>
+		</tests>
+	</active>
+	<history>History</history>
+</setupdb>

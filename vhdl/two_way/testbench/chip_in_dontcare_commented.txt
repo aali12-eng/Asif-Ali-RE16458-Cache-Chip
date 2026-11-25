@@ -1,0 +1,210 @@
+010000    -- clock  1  CPU address   don't care (no start)             <<< RESET (clocks 1-2): every block invalid, state machine to idle
+00100100  --           CPU data      don't care (not a write request)
+1         --           RD/WR         don't care (no start)
+0         --           start         0
+1         --           reset         1 = reset
+11000110  --           memory data   don't care (memory not sending)
+011011    -- clock  2  CPU address   don't care (no start)
+01000001  --           CPU data      don't care (not a write request)
+0         --           RD/WR         don't care (no start)
+0         --           start         0
+1         --           reset         1 = reset
+11101011  --           memory data   don't care (memory not sending)
+000000    -- clock  3  CPU address   address of the request            <<< REQUEST 1: read 000000 (tag 00, block 00, byte 00) -> READ MISS
+01011110  --           CPU data      don't care (not a write request)
+1         --           RD/WR         1 = read
+1         --           start         1 = new request
+0         --           reset         0
+00010000  --           memory data   don't care (memory not sending)
+110001    -- clock  4  CPU address   don't care (no start)             <<< chip: busy = 1, enable = 1 and MA = 000000 (block read from memory)
+01111011  --           CPU data      don't care (not a write request)
+0         --           RD/WR         don't care (no start)
+0         --           start         0
+0         --           reset         0
+00110101  --           memory data   don't care (memory not sending)
+111100    -- clock  5  CPU address   don't care (no start)             <<< memory needs 8 clocks before the first byte
+10011000  --           CPU data      don't care (not a write request)
+1         --           RD/WR         don't care (no start)
+0         --           start         0
+0         --           reset         0
+01011010  --           memory data   don't care (memory not sending)
+000111    -- clock  6  CPU address   don't care (no start)
+10110101  --           CPU data      don't care (not a write request)
+0         --           RD/WR         don't care (no start)
+0         --           start         0
+0         --           reset         0
+01111111  --           memory data   don't care (memory not sending)
+010010    -- clock  7  CPU address   don't care (no start)
+11010010  --           CPU data      don't care (not a write request)
+1         --           RD/WR         don't care (no start)
+0         --           start         0
+0         --           reset         0
+10100100  --           memory data   don't care (memory not sending)
+011101    -- clock  8  CPU address   don't care (no start)
+11101111  --           CPU data      don't care (not a write request)
+0         --           RD/WR         don't care (no start)
+0         --           start         0
+0         --           reset         0
+11001001  --           memory data   don't care (memory not sending)
+101000    -- clock  9  CPU address   don't care (no start)
+00001100  --           CPU data      don't care (not a write request)
+1         --           RD/WR         don't care (no start)
+0         --           start         0
+0         --           reset         0
+11101110  --           memory data   don't care (memory not sending)
+110011    -- clock 10  CPU address   don't care (no start)
+00101001  --           CPU data      don't care (not a write request)
+0         --           RD/WR         don't care (no start)
+0         --           start         0
+0         --           reset         0
+00010011  --           memory data   don't care (memory not sending)
+111110    -- clock 11  CPU address   don't care (no start)
+01000110  --           CPU data      don't care (not a write request)
+1         --           RD/WR         don't care (no start)
+0         --           start         0
+0         --           reset         0
+00111000  --           memory data   don't care (memory not sending)
+001001    -- clock 12  CPU address   don't care (no start)             <<< memory: byte 0 of the block (address 000000), stable 2 clocks
+01100011  --           CPU data      don't care (not a write request)
+0         --           RD/WR         don't care (no start)
+0         --           start         0
+0         --           reset         0
+00000000  --           memory data   byte 0 of the block (falling edge)
+010100    -- clock 13  CPU address   don't care (no start)
+10000000  --           CPU data      don't care (not a write request)
+1         --           RD/WR         don't care (no start)
+0         --           start         0
+0         --           reset         0
+00000000  --           memory data   byte 0 of the block (falling edge)
+011111    -- clock 14  CPU address   don't care (no start)             <<< memory: byte 1 (address 000001)
+10011101  --           CPU data      don't care (not a write request)
+0         --           RD/WR         don't care (no start)
+0         --           start         0
+0         --           reset         0
+00000001  --           memory data   byte 1 of the block (falling edge)
+101010    -- clock 15  CPU address   don't care (no start)
+10111010  --           CPU data      don't care (not a write request)
+1         --           RD/WR         don't care (no start)
+0         --           start         0
+0         --           reset         0
+00000001  --           memory data   byte 1 of the block (falling edge)
+110101    -- clock 16  CPU address   don't care (no start)             <<< memory: byte 2 (address 000010)
+11010111  --           CPU data      don't care (not a write request)
+0         --           RD/WR         don't care (no start)
+0         --           start         0
+0         --           reset         0
+00000010  --           memory data   byte 2 of the block (falling edge)
+000000    -- clock 17  CPU address   don't care (no start)
+11110100  --           CPU data      don't care (not a write request)
+1         --           RD/WR         don't care (no start)
+0         --           start         0
+0         --           reset         0
+00000010  --           memory data   byte 2 of the block (falling edge)
+001011    -- clock 18  CPU address   don't care (no start)             <<< memory: byte 3 (address 000011); block now in the cache
+00010001  --           CPU data      don't care (not a write request)
+0         --           RD/WR         don't care (no start)
+0         --           start         0
+0         --           reset         0
+00000011  --           memory data   byte 3 of the block (falling edge)
+010110    -- clock 19  CPU address   don't care (no start)
+00101110  --           CPU data      don't care (not a write request)
+1         --           RD/WR         don't care (no start)
+0         --           start         0
+0         --           reset         0
+00000011  --           memory data   byte 3 of the block (falling edge)
+100001    -- clock 20  CPU address   don't care (no start)             <<< CPU releases CD: the chip is about to drive the read data
+ZZZZZZZZ  --           CPU data      Z: CPU off the bus, the chip drives CD
+0         --           RD/WR         don't care (no start)
+0         --           start         0
+0         --           reset         0
+10000101  --           memory data   don't care (memory not sending)
+101100    -- clock 21  CPU address   don't care (no start)             <<< chip: CD = 00000000 (byte 0 from memory), busy = 0; request 1 done
+ZZZZZZZZ  --           CPU data      Z: CPU off the bus, the chip drives CD
+1         --           RD/WR         don't care (no start)
+0         --           start         0
+0         --           reset         0
+10101010  --           memory data   don't care (memory not sending)
+110111    -- clock 22  CPU address   don't care (no start)
+ZZZZZZZZ  --           CPU data      Z: CPU off the bus, the chip drives CD
+0         --           RD/WR         don't care (no start)
+0         --           start         0
+0         --           reset         0
+11001111  --           memory data   don't care (memory not sending)
+000011    -- clock 23  CPU address   address of the request            <<< REQUEST 2: write 11111111 to 000011 -> WRITE HIT (block 00 loaded by request 1)
+11111111  --           CPU data      write data
+0         --           RD/WR         0 = write
+1         --           start         1 = new request
+0         --           reset         0
+11110100  --           memory data   don't care (memory not sending)
+001101    -- clock 24  CPU address   don't care (no start)
+10111111  --           CPU data      don't care (not a write request)
+0         --           RD/WR         don't care (no start)
+0         --           start         0
+0         --           reset         0
+00011001  --           memory data   don't care (memory not sending)
+011000    -- clock 25  CPU address   don't care (no start)             <<< chip: busy = 0 after the write; request 2 done
+11011100  --           CPU data      don't care (not a write request)
+1         --           RD/WR         don't care (no start)
+0         --           start         0
+0         --           reset         0
+00111110  --           memory data   don't care (memory not sending)
+100011    -- clock 26  CPU address   don't care (no start)
+11111001  --           CPU data      don't care (not a write request)
+0         --           RD/WR         don't care (no start)
+0         --           start         0
+0         --           reset         0
+01100011  --           memory data   don't care (memory not sending)
+000011    -- clock 27  CPU address   address of the request            <<< REQUEST 3: read 000011 -> READ HIT
+ZZZZZZZZ  --           CPU data      Z: CPU off the bus, the chip drives CD
+1         --           RD/WR         1 = read
+1         --           start         1 = new request
+0         --           reset         0
+10001000  --           memory data   don't care (memory not sending)
+111001    -- clock 28  CPU address   don't care (no start)             <<< chip: CD = 11111111 (the byte written by request 2), busy = 0; request 3 done
+ZZZZZZZZ  --           CPU data      Z: CPU off the bus, the chip drives CD
+0         --           RD/WR         don't care (no start)
+0         --           start         0
+0         --           reset         0
+10101101  --           memory data   don't care (memory not sending)
+000100    -- clock 29  CPU address   don't care (no start)
+ZZZZZZZZ  --           CPU data      Z: CPU off the bus, the chip drives CD
+1         --           RD/WR         don't care (no start)
+0         --           start         0
+0         --           reset         0
+11010010  --           memory data   don't care (memory not sending)
+111111    -- clock 30  CPU address   address of the request            <<< REQUEST 4: write 10101010 to 111111 (tag 11, block 11) -> WRITE MISS, no write allocate
+10101010  --           CPU data      write data
+0         --           RD/WR         0 = write
+1         --           start         1 = new request
+0         --           reset         0
+11110111  --           memory data   don't care (memory not sending)
+011010    -- clock 31  CPU address   don't care (no start)
+10001010  --           CPU data      don't care (not a write request)
+1         --           RD/WR         don't care (no start)
+0         --           start         0
+0         --           reset         0
+00011100  --           memory data   don't care (memory not sending)
+100101    -- clock 32  CPU address   don't care (no start)             <<< chip: busy = 0; request 4 done, cache not changed
+10100111  --           CPU data      don't care (not a write request)
+0         --           RD/WR         don't care (no start)
+0         --           start         0
+0         --           reset         0
+01000001  --           memory data   don't care (memory not sending)
+110000    -- clock 33  CPU address   don't care (no start)             <<< idle to the end of the test
+11000100  --           CPU data      don't care (not a write request)
+1         --           RD/WR         don't care (no start)
+0         --           start         0
+0         --           reset         0
+01100110  --           memory data   don't care (memory not sending)
+111011    -- clock 34  CPU address   don't care (no start)
+11100001  --           CPU data      don't care (not a write request)
+0         --           RD/WR         don't care (no start)
+0         --           start         0
+0         --           reset         0
+10001011  --           memory data   don't care (memory not sending)
+000110    -- clock 35  CPU address   don't care (no start)
+11111110  --           CPU data      don't care (not a write request)
+1         --           RD/WR         don't care (no start)
+0         --           start         0
+0         --           reset         0
+10110000  --           memory data   don't care (memory not sending)

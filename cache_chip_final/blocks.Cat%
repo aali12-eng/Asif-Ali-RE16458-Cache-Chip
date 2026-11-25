@@ -1,0 +1,8 @@
+TDMCHECKPOINT="1.0"
+cache_chip/and_reduce_n type="cell"
+cache_chip/decoder2to4 type="cell"
+cache_chip/dff_en type="cell"
+cache_chip/half_adder type="cell"
+cache_chip/mux2 type="cell"
+cache_chip/pos_dff type="cell"
+cache_chip/selector type="cell"

@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<setupdb version="7">history
+	<active>Active Setup</active>
+	<history>History
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.0
+			<timestamp>Nov 21 16:56:28 2026</timestamp>
+			<uuid>{c2c15baa-9e83-4336-adb6-17403d49062d}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/afs/umbc.edu/users/a/a/aali12/home/cadence1/cadence_setup/cache_chip/tb_dff_en/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/afs/umbc.edu/users/a/a/aali12/home/cadence1/cadence_setup/cache_chip/tb_dff_en/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/tmp/aali12/simulation/cache_chip/tb_dff_en/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/cache_chip/tb_dff_en/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.1
+			<timestamp>Nov 21 16:57:28 2026</timestamp>
+			<uuid>{1e4aa9b9-dc67-4101-9904-d2b1eee522ec}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/afs/umbc.edu/users/a/a/aali12/home/cadence1/cadence_setup/cache_chip/tb_dff_en/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/afs/umbc.edu/users/a/a/aali12/home/cadence1/cadence_setup/cache_chip/tb_dff_en/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/tmp/aali12/simulation/cache_chip/tb_dff_en/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/cache_chip/tb_dff_en/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.2
+			<timestamp>Nov 21 17:08:54 2026</timestamp>
+			<uuid>{f347798b-c30d-4422-8f86-339888b3d8c3}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/afs/umbc.edu/users/a/a/aali12/home/cadence1/cadence_setup/cache_chip/tb_dff_en/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/afs/umbc.edu/users/a/a/aali12/home/cadence1/cadence_setup/cache_chip/tb_dff_en/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/tmp/aali12/simulation/cache_chip/tb_dff_en/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/cache_chip/tb_dff_en/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.3
+			<timestamp>Nov 21 17:15:09 2026</timestamp>
+			<uuid>{9ec678dd-d29e-40ca-871c-4a842994babd}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/afs/umbc.edu/users/a/a/aali12/home/cadence1/cadence_setup/cache_chip/tb_dff_en/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/afs/umbc.edu/users/a/a/aali12/home/cadence1/cadence_setup/cache_chip/tb_dff_en/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/tmp/aali12/simulation/cache_chip/tb_dff_en/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/cache_chip/tb_dff_en/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.4
+			<timestamp>Nov 21 17:27:14 2026</timestamp>
+			<uuid>{6f8a2b99-99e5-4d9d-90c4-afd427914e87}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/afs/umbc.edu/users/a/a/aali12/home/cadence1/cadence_setup/cache_chip/tb_dff_en/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/afs/umbc.edu/users/a/a/aali12/home/cadence1/cadence_setup/cache_chip/tb_dff_en/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/tmp/aali12/simulation/cache_chip/tb_dff_en/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/cache_chip/tb_dff_en/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+	</history>
+</setupdb>

@@ -1,0 +1,4 @@
+TDMCHECKPOINT="1.0"
+cache_chip/Dlatch type="cell"
+cache_chip/dff type="cell"
+cache_chip/tx type="cell"
