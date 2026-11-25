@@ -12,7 +12,7 @@ Contents
                       course testbench, read with testbench/chip_in.txt)
   cds.lib             library definitions, with the PWL and PVS paths
   lvs_extra.rul       copy of cache_chip_final/lvs_extra.rul
-  The report: Cache_Chip_2Way_Layout_Report.pdf (Section 2: how to run the project)
+  The report: Cache_Chip_2Way_AsifAli_RE16458.pdf (Section 2: how to run the project)
 
 1. Install
    Copy cache_chip_final/ and pwl/ next to your Cadence setup and add to cds.lib:   DEFINE cache_chip_final <path>/cache_chip_final
