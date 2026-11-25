@@ -15,7 +15,7 @@ Virtuoso IC23.1, Pegasus 23.26 and Spectre.
 | [`cds.lib`](cds.lib) | The library definitions, with the PWL and PVS paths. |
 | [`lvs_extra.rul`](lvs_extra.rul) | The extra LVS rule for `state_machine` and `way_select` (Section 4 of the report). |
 | [`README.txt`](README.txt) | Detailed run instructions. |
-| [`screenshots/`](screenshots) | Every screenshot in the report, organised by cell: schematic, layout, testbench, DRC, LVS and waveforms. The schematics (`schematic.png`) and `layout_hires.png` are full-resolution exports from Virtuoso. |
+| [`screenshots/`](screenshots) | Every screenshot in the report, organised by cell: schematic, layout, testbench, DRC, LVS and waveforms. The schematics (`schematic.png`) and layouts (`layout.png`) are full-resolution exports from Virtuoso. |
 
 ## Quick start
 
