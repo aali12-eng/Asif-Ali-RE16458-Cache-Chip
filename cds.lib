@@ -1,4 +1,4 @@
--- cds.lib for the CMPE 413/640 cache chip, Project Submission II (Asif Ali, RE16458)
+-- cds.lib for the cache chip, Project Submission II (Asif Ali, RE16458)
 -- Put this file (or these lines) in the directory Virtuoso is started from, next to cache_chip_final/.
 
 SOFTINCLUDE $SYSTEM_CDS_LIB_DIR/cds.lib

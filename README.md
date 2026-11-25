@@ -1,9 +1,9 @@
-# CMPE 413/640 Cache Chip: Project Submission II
+# Cache Chip: Project Submission II
+
+**Asif Ali**, Register No. **RE16458**
 
 Two-way set-associative cache with LRU replacement. Layout, DRC and LVS in Cadence: gpdk045 (45 nm),
 Virtuoso IC23.1, Pegasus 23.26 and Spectre.
-
-**Asif Ali** (RE16458)
 
 ## Contents
 

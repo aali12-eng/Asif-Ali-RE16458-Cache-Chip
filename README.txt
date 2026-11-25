@@ -1,4 +1,4 @@
-CMPE 413/640 Cache Chip - Project Submission II
+Cache Chip - Project Submission II
 Two-way set associative cache with LRU, gpdk045 (45 nm), Virtuoso IC23.1, Pegasus 23.26, Spectre
 Asif Ali, Reg. No. RE16458, aali12@umbc.edu
 ================================================================================================

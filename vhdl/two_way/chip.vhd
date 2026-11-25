@@ -1,4 +1,4 @@
--- Cache chip (CMPE 413/640 project, extra credit): two-way set associative with LRU replacement,
+-- Cache chip (project, extra credit): two-way set associative with LRU replacement,
 -- byte addressable, 32 bytes (2 ways of 4 blocks x 4 bytes), write through with no write allocate.
 -- Read hit 2 clocks, write hit/miss 3, read miss 19 (the same timing as the direct mapped chip).
 --

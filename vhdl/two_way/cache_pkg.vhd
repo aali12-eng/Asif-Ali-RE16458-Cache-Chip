@@ -1,4 +1,4 @@
--- Shared constants for the CMPE 413/640 cache chip - extra credit version
+-- Shared constants for the cache chip - extra credit version
 --   Two-way set associative with LRU replacement: 2 ways (the specification's "2 sets") of
 --   4 blocks x 4 bytes = 32 bytes, byte addressable, write through / no write allocate
 --   CPU address (CA) = | tag (2) | block offset (2) | byte offset (2) |
